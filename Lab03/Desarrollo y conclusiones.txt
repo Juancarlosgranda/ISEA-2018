@@ -49,4 +49,37 @@ Autor: Granda Ramos Juan Carlos
 7.12 IMG: 21.PNG
 
 7.15 IMG: 22.PNG (Flujos de venta)
+__________________________________________________________________________________________________________________________________
+TAREA:
+1.) Para acceder al menú de importación desde cualquier modelo, debe poner la vista en modo "LISTA" y presionar el botón importar que aparecerá a la derecha del botón "CREAR"
 
+Cualquier modelo en Odoo puede ser importado: Clientes, Productos, Proveedores, Costos, Facturas, Asientos contables, etc......
+
+NOTA: En Odoo v9, el formato de importacion debera ser CSV (.csv). 
+            En Odoo v10 tanto archivos CSV como archivos de Microsoft Excel estan permitidos (.xls)
+Que formato debe tener mi archivo CSV?
+Si bien Odoo permite importar archivos con diferentes parámetros, nosotros recomendamos utilizar: 
+
+Codificación: UTF-8
+
+Separador: Punto y coma ( ; )
+
+Delimitacion de Texto: Comillas ( " )
+
+Primer fila con nombres de campos. (De esta manera Odoo puede reconocerlo automáticamente)
+
+2.)Añadi dos modulos a nuestra pagina web.
+    IMG: Foro.PNG
+         Blogs.PNG
+        a) Blog
+            IMG: PageBlog.PNG
+        b) Foro
+            IMG: PageForo.PNG
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________
+Conclusiones:
+
+1. Logramos instalar, configurar y utilizar, de manera exitosa el modulo de CRM.
+2. Cuando hablamos de CRM, Customer Relationship Management, nos referimos a la estrategia de negocios que la empresa utiliza para conseguir la fidelización del cliente. 
+3. Con el CRM en Odoo podemos gestionar la cartera de clientes, tanto potenciales como existentes, sencilla y eficazmente, siendo esta información accesible para todo el personal autorizado de tu compañía.
+4. Es importante destacar que Odoo permite la integración con el correo electrónico, existiendo la posibilidad de organizar y filtrar automáticamente los correos entrantes enfocados hacia las oportunidades o equipos de ventas.
+5. Integramos diferentes modulos al sitio web diseñado en el laboratorio, en este modificamos su diseño y notamos la facilidad que nos proporciona odoo para crear na pagina web.
