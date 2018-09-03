@@ -1,0 +1,51 @@
+Laboratorio 2 ISEA
+Autor: Granda Ramos Juan Carlos
+-----------------------------------------------------------------------------------------------------
+3.4)Instalacion del modulo proyecto
+        IMG: 1.PNG
+-----------------------------------------------------------------------------------------------------
+3.6) IMG: 2.PNG
+-----------------------------------------------------------------------------------------------------
+4.1) Primer tablero: Modulo -> Ausencias.
+     Segundo tablero: Modulo -> Punto de venta.
+     Tercer Tablero: Modulo -> Gestion de facturas.
+-----------------------------------------------------------------------------------------------------
+5.7)Verificación de la existencia del testmodulo1
+        IMG: 3.PNG
+-----------------------------------------------------------------------------------------------------
+5.8)Contenido del momdulo testmoudulo
+        IMG: 4.PNG
+-----------------------------------------------------------------------------------------------------
+5.10)Modificacndo parametros de los archivos de testmodulo1
+        IMG: modificaciones.PNG
+-----------------------------------------------------------------------------------------------------
+5.15) IMG: 6.PNG
+-----------------------------------------------------------------------------------------------------
+5.16) IMG: 7.PNG
+-----------------------------------------------------------------------------------------------------
+Fin de laboratorio
+________________________________________________________________________________________________________
+
+TAREAS:
+1. 
+      ____________________________________________________________________________________________________________________________________________________
+     |NRO | NOMBRE DEL MODULO | DESCRIPCION
+     | 1  | __init__.py       | Para que pueda ser importado desde Python.
+     | 2  | __manifest__.py   | El archivo de manifiesto sirve para declarar un paquete de Python como un módulo de Odoo y para especificar los metadatos del módulo. Es un archivo llamado __manifest__.pyy contiene un solo diccionario de Python, donde cada tecla especifica el metadato del módulo.
+     | 3  | controllers       | Soporta la lógica de negocio de la aplicación.
+     | 4  | demo              | Como su propio nombre lo dice son archivos xml que sirven de moldeo para las vistas
+     | 5  | models            | Donde se define la estructura de los datos
+     | 6  | security          | Contiene archivos relacionados con la seguridad de la aplicacion 
+     | 7  | views             | Aqui describe la interfaz con el usuario o la usuaria.
+      ____________________________________________________________________________________________________________________________________________________
+      
+
+
+________________________________________________________________________________________________________
+Conclusiones:
+
+1. Logramos identificar los principales módulos disponibles en el software ERP ODOO.
+2. Creamos un módulo nuevo desde cero, cubriendo los elementos más frecuentemente usados en un módulo.
+3. En el proceso, se familiarizó con el proceso de desarrollo de módulos, el cual incluye la actualización del módulo y la aplicación de reinicio del servidor para hacer efectivos en Odoo los cambios graduales.
+4. Recuerde siempre, al agregar campos en el modelo, que es necesaria una actualización del módulo. Cuando se cambia el código Python, incluyendo el archivo de manifiesto, es necesario un reinicio del servidor.
+5. Cuando se cambian archivos XML o CSV es necesaria una actualización del módulo; incluso en caso de duda, realice ambas: actualización del módulo y reinicio del servidor.

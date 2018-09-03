@@ -1,0 +1,46 @@
+Laboratorio 01
+Autor: Granda Ramos Juan Carlos 
+________________________________________________________________________________________________________________________
+DESARROLLO DEL LABORATORIO:
+........................................................................................................................
+IMAGENES DE LA INSTALACION DE ODOO EN WINDOWS:
+ 1. Odoo instaldo en windows.PNG 
+ 2. Odoo pgadmin.PNG
+
+IMAGENES DE LA INSTALACION DE ODOO EN UBUNTO:
+ 1. ubunto odoo.PNG
+ 2. Ubunto odoo 2.png
+........................................................................................................................
+TAREA:
+1.Complete la siguiente tabla sobre los principales modulos disponibles en ODOO.
+    ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+    NRO | NOMBRE DEL MÓDULO:             | DESCRIPCIÓN
+    1   |  CRM                           | Con OpenERP CRM podrá hacer un seguimiento de todas sus comunicaciones con los clientes y de las posibilidades de venta de su negocio. Existe la opción de ajustar los ciclos de venta según sus requisitos, de crear estadísticas, previsiones y campañas de marketing automatizadas para así mejorar el rendimiento de ventas.
+    2   |  Ventas / Gestión de pedidos   | Para conseguir un seguimiento integral desde la consulta hasta el pedido del cliente y su facturación, OpenERP pone a su disposición un módulo extenso y eficiente. Numerosos análisis completan la funcionalidad de esta valiosa herramienta.
+    3   |  Contabilidad y finanzas       | Realice sus entradas con unos pocos clics y gestione sus finanzas en un único modulo. Nunca fue tan fácil manejar su contabilidad financiera.
+    4   |  Compras                       | Registre y siga sus órdenes de compra, administre los datos de contacto de sus proveedores, supervise la entrada de mercancías y controle las facturas recibidas de sus proveedores.
+    5   |  Gestión y control de almacenes| Administre su propio almacén interno, externos, de clientes, proveedores o lugar de almacenamiento y producción.
+    6   |  Fabricación                   | Planifique y controle su cadena de suministro con ayuda de distintas aplicaciones en el módulo “Fabricación” de OpenERP. Personalice sus datos clave. Configure la planificación de fabricación, administre las órdenes de fabricación y de trabajo.
+    7   |  Recursos humanos & nóminas    | Administre el valor más preciado de su compañía: “sus empleados”. Con nuestro módulo RRHH además de ser capaz de introducir información personal de sus empleados, podrá registrar tiempos de asistencia y ausencia, registrar el cómputo de horas asociadas a cada proyecto y las dietas correspondientes, a crear evaluaciones del personal y por último a gestionar la selección de personal.
+    8   |  Gestión de proyectos          | Administre y siga sus proyectos, utilice tareas para pequeños proyectos /a corto plazo, así como planificar las diferentes fases del proyecto, para aquellos de larga duración.
+    ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+2. Complete la siguiente tabla sobre los principales ERP deisponibles en la actualidad:
+     ___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+    NRO | SOFTWARE ERP                | PROVEEDOR                | DESCRIPCION
+    1   |  SAGE ERP X3                |     Quonext              | Este ERP integra todas las funcionalidades de la empresa en las áreas de finanzas, ventas, compras, CRM, producción, logística y comercio electrónico. Gracias a ello, permite una gestión consistente de los datos y un control global de la actividad a tiempo real.        
+    2   |  MICROSOFT DYNAMICS         |     MICROSOFT            | Este sistema ERP ofrece grandes ventajas en el área de gestión financiera, gestión de relaciones con los clientes y en la cadena de suministro. 
+    3   |  MICROSOFT DYNAMICS NAV     |     MICROSOFT            | El software ERP Navision es una solución de gestión fácilmente personalizable y diseñada para responder a las necesidades específicas de las PYMES. Algunas de las funciones que incluye integradas están relacionadas con la gestión financiera, la colaboración en la cadena de suministro, el CRM y el comercio electrónico. 
+    4   |  SAP                        |     -                    | Fue diseñado principalmente para mejorar la gestión de ventas, relaciones con los clientes, finanzas y operaciones de la compañía. Gracias a sus funcionalidades, podrá obtener un mayor control sobre su pyme y controlar toda la información que se registre en el negocio en un sistema único y escalable.
+    5   |  ORACLE                     |     ORACLE               |  Este paquete ERP consiste en una colección de más de 70 aplicaciones de negocios modulares, pre-integradas y específicas para ciertas industrias y diseñadas para una implantación rápida y una fácil administración.
+    ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+........................................................................................................................
+CONCLUSIONES:
+1. Realizamos una correcta instalcion de odoo en windows, algunos problemas que ocurrieron fue la instalacion del pgadmin.
+2. Un ERP es un sistema de información capaz de centralizar y unificar los datos procedentes de los distintos departamentos empresariales facilitando la fluidez de la información.
+3. Odoo es un sistema de ERP integrado de código abierto actualmente producido por la empresa belga Odoo S.A.
+4. En las empresas que todavía no cuentan con una solución ERP es fácil comprobar que sus departamentos actúan con cierta independencia unos de otros, por lo que acaban generando registros e informes por duplicado.
+5. Los ERP están formados por módulos. De esta manera podrás implantar los módulos que tu empresa necesite en cada momento. Si en el futuro tu empresa evoluciona y crece tu ERP lo hará con ella si incorporas nuevas funcionalidades.
+6. Vimos los modulos mas importantes que posee Odoo y los ERP que circulan en el mercado actual.
