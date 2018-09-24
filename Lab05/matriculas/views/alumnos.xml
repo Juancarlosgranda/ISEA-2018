@@ -1,0 +1,66 @@
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+
+        <record model="ir.ui.view" id="matriculas.list_alumnos_form">
+            <field name="name">matriculas.alumno.form</field>
+            <field name="model">matriculas.alumno</field>
+            <field name="arch" type="xml">
+                <form string="Listado de Alumnos">
+                    <sheet>
+                        <div class = "oe_title">
+                            <label for="name" class="oe_edit_only" string="Nombre y Apellidos">Nombre y Apellidos</label>
+                            <h1>
+                                <field name="name"/>
+                            </h1>
+                        </div>
+                        <separator string="Datos Personales" colspan="2"/>
+                        <group colspan="2" col="2">
+                            <field name="edad"/>
+                            <field name="localidad"/>
+                            <field name="provincia"/>
+                            <field name="email"/>
+                        </group>
+                        <field name="matriculas_ids"/>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="matriculas.list_alumnos_tree">
+            <field name="name">matriculas.alumno.tree</field>
+            <field name="model">matriculas.alumno</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="edad"/>
+                    <field name="localidad"/>
+                    <field name="provincia"/>
+                    <field name="email"/>
+                    <field name= "matriculas_ids">
+                        <tree string = "Matriculas del alumno">
+                            <field name="curso_id"/>
+                            <field name="alumno_id"/>
+                            <field name="fecha_matricula"/>
+                        </tree>
+                    </field>
+                </tree>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="matriculas.action_window">
+            <field name="name">Ventana de alumnos</field>
+            <field name="res_model">matriculas.alumno</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+
+        <!-- Top menu item -->
+        <menuitem name="Matriculas" id="matriculas.menu_root"/>
+        <!-- menu categories -->
+        <menuitem name="Alumnos" id="matriculas.alumnos" parent="matriculas.menu_root"/>
+        <!-- actions -->
+        <menuitem name="Listado" id="matriculas.alumnos_list" parent="matriculas.alumnos" action="matriculas.action_window"/>
+    </data>
+</odoo>

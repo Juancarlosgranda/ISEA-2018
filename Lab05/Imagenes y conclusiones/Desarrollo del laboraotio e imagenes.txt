@@ -1,0 +1,115 @@
+Laboratorio Nro 5
+Autor: Granda Ramos Juan Carlos
+___________________________________________________________________________________________________________________________________________________________________________
+2.5) Imagenes del moduclo convalidaciones desarolla mediante el link:
+    1. IMG :
+    Este es el menu arbol que generamos:
+        menu_arbol.PNG
+
+    Una de sus funcionalidades es la creación de datos y aqui tambien se encuentra la logica de moduo pues en convalidaciones jalamos datos de otras tablas.
+        CrearAlumnos.PNG
+        CrearConvalidaciones.PNG
+        CrearCiclos.PNG
+        CrearModulos.PNG
+
+    Listado de cada tabla:
+        Listalumnos.PNG
+        ListCiclos.PNG
+        ListCiclos.PNG
+        ListModulos.PNG
+___________________________________________________________________________________________________________________________________________________________________________
+
+3) Documentación
+
+    Para crear un modelos debemos seguir una cierta sintaxis la cual describire en estos momentos:
+    
+    A) Primero tenemos que importar la siguiente linea de codigo from odoo import models, fields, api
+    B) Luego para crear un modelo, tenemos que declararla como una clase y entre parentesis tenemos que declarar "models.Model" con el fin de recalcar que es una modelo.
+    C) Es muy importante respetar la identacion, pues esto no esta contenido entre llaves ni nada por el estilo.
+    D) La declaracion de atributos es como cualquier otra, en donde se especifica que dato sera el que albergara dicha variable, pero lo nuevo esque dentro de cada parentesis, de cada variable, pondremos 
+        una cadena de texto con la cual sera identificado en la tabla de listado o en el formulario.
+    E) Para crear una clave foreana es necesario analizar que tipo de relacion tienen y cabe recalcar que esta tiene que ser declara en los dos modelos pero de diferente manera.
+
+    Para un mayor análisis adjunto la siguiente imangen:
+    IMG: ModeloAlumnos.PNG
+___________________________________________________________________________________________________________________________________________________________________________
+
+4) Aplicación:
+
+    4.1) Creacion del modulo matriculas
+         IMG: CreateMatriculas.PNG
+
+    4.2) Proponga campos para cada tabla e incluya el modelo E-R que usted va a utilizar:
+         IMG: BDDMatricula.PNG
+
+    4.3) Implemente la funcionalidad para acceder a la información de las tablas Área y Alumno
+         IMG: ModelAlumno.PNG
+              ModelArea.PNG
+
+              VistaAlumno.PNG
+              VistaArea.PNG
+    4.2) Capture algunas imágenes que muestre la funcionalidad requerida
+        IMG:Matricula1.PNG
+            Matricula2.PNG
+            Matricula3.PNG
+            Matricula4.PNG
+            Matricula5.PNG
+            Matricula6.PNG
+            Matricula7.PNG
+___________________________________________________________________________________________________________________________________________________________________________
+5) Tarea:
+
+1) La PETI (Planeación Estratégica de Tecnologías de Información) es ampliamente reconocida como una herramienta para ordenar los esfuerzos de incorporación de TI.
+   Dicha herramienta establece las políticas requeridas para controlar la adquisición, el uso y la administración de los recursos de TI. Integra la perspectiva de negocios y
+   organizacional con el enfoque de TI. Estableciendo un desarrollo informático que responde a las necesidades de la organización y contribuye al éxito de la empresa. Su desarrollo 
+   esta relacionado con la creación de una plan detransformación, que va del estado actual en que se encuentra la organización, esto, en concordancia con laestrategia de negocios y 
+   con el propósito de crear una ventaja competitiva.
+
+    PETI consta de quince módulos agrupados en cuatro fases. Este paradigma está concebido, en concordancia con el modelo conceptual, a  través  de  una visión estratégica de 
+    negocios/organizacional  y  una  visión  estratégica  de  TI.  La metodología integra ambas visiones en una única final.
+
+    IMG: ModulosPeti.PNG
+
+
+
+
+2) Todo el proceso  comienza  con un análisis  de la situación  actual  en la fase I, que produce   el modelo  funcional  imperante  en la empresa. En este paso  se evalúa  de manera
+   general  el entendimiento de la  estrategia  de  negocios,  la  eficiencia  de  los  procesos  operativos  y la aceptación de TI en la organización.
+
+    La fase II, relacionada con la creación de un modelo de la organización,  inicia  con  un análisis del entorno y el establecimiento de la estrategia de negocios (el proceso  de 
+    planeación se basa en una  transformación  de dichas  estrategias).  Continúa  con  el diseño en detalle  de los modelos  operativos,  que van a producir  en parte  los requerimientos 
+    de  TI necesarios para mejorar la eficiencia y la productividad de la empresa (esta aproximación es soportada por una reingeniería de procesos o una automatización incremental,  que  se
+    concentran  en  identificar  deficiencias   operativas,   con   el  propósito de rediseñarlas o modificarlas, y automatizarlas). Posteriormente, se  construye la estructura de la organización,
+    que especifica puestos, perfiles, habilidades, etcétera, necesarios para administrar la empresa. La fase termina con la construcción de  una arquitectura  de  información,  que  identifica  las
+    necesidades   globales   de  información  de la empresa. El modelo es descrito con la utilización de términos y conceptos de negocio/organización, independientemente del soporte computacional.
+
+    La fase III trata del desarrollo de un modelo de TI. En su primer módulo, tiene  como  objetivo la transformación de las estrategias de negocios en una estrategia de TI. Sigue
+    con la construcción de la arquitectura de sistemas, que establece un marco para la especificación de  las  aplicaciones  y  la  integración  de  la  información.  Luego  se  definen los elementos
+    clave y las características esenciales de  la  arquitectura tecnológica (Hardware y comunicaciones), que establece la plataforma en la que los sistemas van a funcionar. Continúa con el diseño en 
+    detalle de los modelos  operativos  de  TI,  que  describen el funcionamiento del área informática. Finaliza con la definición sobre la estructura de  la organización de TI, necesaria para administrar 
+    los requerimientos informáticos.
+
+    La fase IV se concentra en la elaboración de un modelo de  planeación. Primero  se establecen las prioridades  para  la implantación  de la TI y los  procesos  operativos.  Luego se define un plan de 
+    implantación,  que  determina  el orden de desarrollo de los proyectos de negocios/organización y de TI. Continúa con un estudio de la recuperación de la inversión, a través de un  análisis costo/beneficio.
+    Todo  el  proceso finaliza con  un estudio de administración del riesgo, que se encarga de  reconocer  la  existencia  de  amenazas que puedan poner en peligro el éxito del PETI.
+    
+___________________________________________________________________________________________________________________________________________________________________________
+Conclusiones:
+
+1.  Las aplicaciones no son diferentes de los módulos regulares, pero funcionalmente, éstas proporcionan una característica central, alrededor de la cual otros módulos agregan características u opciones.
+    Estas proveen los elementos base para un área funcional, como contabilidad o RRHH, sobre las cuales otros módulos agregan características. Por esto son resaltadas en el menú Apps de Odoo.
+
+2.  Un módulo puede agregar o modificar características en Odoo. Esto es soportado por un directorio que contiene un archivo de manifiesto o descriptor y el resto de los archivos que implementan sus características.
+
+3.  Los modelos de Odoo son representados por las clases Python. En el código precedente, tenemos una clase Python llamada Stage, basada en la clase models.Model, usada para definir el modelo nuevo todo.task.stage.
+
+4.  Los modelos de Odoo son mantenidos en un registro central, también denominado como piscina - pool - en las versiones anteriores. Es un diccionario que mantiene las referencias de todas las clases de modelos 
+    disponibles en la instancia, a las cuales se les puede hacer referencia por el nombre del modelo. 
+
+5.  Se aprendió más sobre las vistas e Odoo que son usadas para la construcción de la interfaz. Comenzamos agregando opciones de menú y acciones de ventana usadas para abrir las vistas.
+
+6.  Creamos un módulo nuevo desde cero, cubriendo los elementos más frecuentemente usados en un módulo y en el proceso, se familiarizó con el proceso de desarrollo de módulos, el cual incluye la actualización del 
+    módulo y la aplicación de reinicio del servidor para hacer efectivos en Odoo los cambios graduales.
+
+7.  Recordemos siempre, al agregar campos en el modelo, que es necesaria una actualización del módulo. Cuando se cambia el código Python, incluyendo el archivo de manifiesto, es necesario un reinicio del servidor. 
+    Cuando se cambian archivos XML o CSV es necesaria una actualización del módulo; incluso en caso de duda, realice ambas: actualización del módulo y reinicio del servidor.

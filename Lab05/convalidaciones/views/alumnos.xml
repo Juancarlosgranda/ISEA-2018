@@ -1,0 +1,82 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <record model="ir.ui.view" id="convalidaciones.list_alumnos_form">
+      <field name="name">convalidaciones.alumno.form</field>
+      <field name="model">convalidaciones.alumno</field>
+      <field name="arch" type="xml">
+        <form string="Listado de Alumnos">
+          <sheet>
+            <div class = "oe_title">
+              <label for="name" class="oe_edit_only" string="Nombre y Apellidos">Nomnbre y Apellidos</label>
+              <h1>
+                <field name="name"/>
+              </h1>
+            </div>
+            <separator string="Datos Personales" colspan="2"/>
+            <group colspan="2" col="2">
+              <field name="name"/>
+              <field name="edad"/>
+              <field name="localidad"/>
+              <field name="provincia"/>
+              <field name="email"/>
+            </group>
+            <field name="convalidaciones_ids"/>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="convalidaciones.list_alumnos_tree">
+      <field name="name">convalidaciones.alumno.tree</field>
+      <field name="model">convalidaciones.alumno</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="edad"/>
+          <field name="localidad"/>
+          <field name="provincia"/>
+          <field name="email"/>
+          <field name= "convalidaciones_ids">
+            <tree string = "Convalidaciones del alumno">
+              <field name="modulo_id"/>
+              <field name="alumno_id"/>
+              <field name="fecha_convalidacion"/>
+            </tree>
+          </field>
+        </tree>
+      </field>
+    </record>
+
+    <!-- actions opening views on models -->
+    <record model="ir.actions.act_window" id="convalidaciones.action_window">
+      <field name="name">Ventana de alumnos</field>
+      <field name="res_model">convalidaciones.alumno</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- server action to the one above -->
+    <!--
+    <record model="ir.actions.server" id="convalidaciones.action_server">
+      <field name="name">convalidaciones server</field>
+      <field name="model_id" ref="model_convalidaciones_convalidaciones"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+
+    <!-- Top menu item -->
+    <menuitem name="Convalidaciones" id="convalidaciones.menu_root"/>
+    <!-- menu categories -->
+    <menuitem name="Alumnos" id="convalidaciones.alumnos" parent="convalidaciones.menu_root"/>
+    <!-- actions -->
+    <menuitem name="Listado" id="convalidaciones.alumnos_list" parent="convalidaciones.alumnos" action="convalidaciones.action_window"/>
+  </data>
+</odoo>

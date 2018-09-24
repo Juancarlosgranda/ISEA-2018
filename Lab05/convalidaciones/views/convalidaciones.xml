@@ -1,0 +1,69 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+    
+    <record model="ir.ui.view" id="convalidaciones.list_convalidaciones_tree">
+      <field name="name">convalidaciones.convalidaciones.tree</field>
+      <field name="model">convalidaciones.convalidacion</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="fecha_convalidacion"/>
+          <field name="modulo_id"/>
+          <field name="alumno_id"/>
+        </tree>
+      </field>
+    </record>
+    
+    <record model="ir.ui.view" id="convalidaciones.list_convalidaciones_form">
+      <field name="name">convalidaciones.convalidaciones.form</field>
+      <field name="model">convalidaciones.convalidacion</field>
+      <field name="arch" type="xml">
+      <form>
+      <sheet>
+          <field name="fecha_convalidacion"/>
+          <field name="modulo_id"/>
+          <field name="alumno_id"/>
+        </sheet>
+      </form>
+      </field>
+    </record>
+    <!-- actions opening views on models -->
+    
+    <record model="ir.actions.act_window" id="convalidaciones.action_window_convalidaciones">
+      <field name="name">Venta de Convalidaciones</field>
+      <field name="res_model">convalidaciones.convalidacion</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+  
+
+    <!-- server action to the one above -->
+    <!--
+    <record model="ir.actions.server" id="convalidaciones.action_server">
+      <field name="name">convalidaciones server</field>
+      <field name="model_id" ref="model_convalidaciones_convalidaciones"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+
+    <!-- Top menu item -->
+    <!--
+    <menuitem name="convalidaciones" id="convalidaciones.menu_root"/>
+    -->
+    <!-- menu categories -->
+    
+    <menuitem name="Convalidaciones" id="convalidaciones.menu_convalidaciones" parent="convalidaciones.menu_root"/>
+    
+    <!-- actions -->
+    
+    <menuitem name="Listado" id="convalidaciones.convalidaciones_list" parent="convalidaciones.menu_convalidaciones"
+              action="convalidaciones.action_window_convalidaciones"/>
+    
+  </data>
+</odoo>

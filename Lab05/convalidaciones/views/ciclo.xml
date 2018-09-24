@@ -1,0 +1,67 @@
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+
+        <record model="ir.ui.view" id="convalidaciones.list_ciclos_form">
+            <field name="name">convalidaciones.ciclos.listado.form</field>
+            <field name="model">convalidaciones.ciclo</field>
+            <field name="arch" type="xml">
+                <form string="Ventana del Ciclo">
+                    <sheet>
+                        <group colspan="2" col="2">
+                            <field name="name"/>
+                            <field name="description"/>
+                            <field name="modulo_ids"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="convalidaciones.list_ciclos_tree">
+            <field name="name">convalidaciones.ciclos.listado_tree</field>
+            <field name="model">convalidaciones.ciclo</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="description"/>
+                    <field name= "modulo_ids">
+                        <tree string = "Módulos en los que se imparte este Ciclo">
+                            <field name="name"/>
+                            <field name="description"/>
+                        </tree>
+                    </field>
+                </tree>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="convalidaciones.action_window_ciclos">
+            <field name="name">Ventana de ciclos</field>
+            <field name="res_model">convalidaciones.ciclo</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- server action to the one above -->
+        <!--
+    <record model="ir.actions.server" id="convalidaciones.action_server">
+      <field name="name">convalidaciones server</field>
+      <field name="model_id" ref="model_convalidaciones_convalidaciones"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+
+        <!-- Top menu item -->
+        <!-- menu categories -->
+        <menuitem name="Ciclos" id="convalidaciones.ciclos" parent="convalidaciones.menu_root"/>
+        <!-- actions -->
+        <menuitem name="Listado" id="convalidaciones.ciclos_list" parent="convalidaciones.ciclos" action="convalidaciones.action_window_ciclos"/>
+    </data>
+</odoo>
