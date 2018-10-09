@@ -1,0 +1,89 @@
+Laboratorio 06 
+Autor: Granda Ramos Juan Carlos
+_____________________________________________________________________________________________________________________________________________________________________________________
+2) Este punto ya fue realizado en el anterior punto pero colocare algunas capturas:
+    - En esta imagen se refleja el proceso de convalidacion, donde incluye al almuno, y su convalidacion con un curso.
+        IMG: 1.PNG
+    - En esta imagen se refleja la union entre el modulo y su area:
+        IMG: 2.PNG
+_____________________________________________________________________________________________________________________________________________________________________________________    
+3) Para la creación de las vistas tomamos como ejemplo el que odoo nos genera automaticamente de nombre "views.xml"
+    - Apartir de este debemos de hacer algunas configuraciones como definir las vistas que utilzaremos en "manyfest.py":
+        IMG: 3.PNG
+
+    - Ahora una ves definidas las vistas creamos los archivos correspondientes:
+        IMG: 4.PNG
+
+    - Nos disponemos en un archivo, en este caso alumno, aqui definiremos ademas de sus propiops formularios el nombre con el que aparecera en el menu de odoo y mediante el cual
+      podemos acceder a este.
+        IMG: 5.PNG
+    
+    - Algo basico que debemos considerar en la vista son los formularios tree y el form. En si el tree solo muestra en una lista la data. El formuario es para poder editar los campos
+      de un registro o crear un registro:
+        IMG: Form.PNG
+             Tree.PNG
+
+    - Codigo que abren las aciones sobre modelos:
+        IMG: 6.PNG
+
+    - Codigo para la configuracion de los item superior, el menu de categorias, y la accion u acciones:
+        IMG: 7.PNG
+    
+    - Cabe resaltar que el penultimo paso solo se realiza en el primer archivo que se llame en manyfest.py.
+_____________________________________________________________________________________________________________________________________________________________________________________    
+4) Aplicación
+
+    - Campos de mi modelo entidad relacion:
+        IMG: alumno.PNG
+             curso.PNG
+             area.PNG
+             matricula.PNG
+
+    - Mostrando la funcionalidad requerida:
+        En esta imagen podemos visualizar nuestro menu latera y nuestro item superior de nombre matriculas:
+            IMG: M1.PNG
+        
+        En esta imagen podemos observar el proceso o la funcionalidad requerida del sistema, tenemos un alumno que se matriculo en un respectivo curso:
+            IMG: M2.PNG
+
+        En la sigueinte imagen podemos ver como se relacionan las tablas de area y curso sin la necesidad de generar una tabla extra:
+            IMG: M3.PNG
+
+        La funcionalidad de crear o editar se sobre entiende ya que para realizar los anteriores procesos no se hubieran podido realziar si no tuvieran el crud necesario para generarlos.
+_____________________________________________________________________________________________________________________________________________________________________________________    
+
+Tarea:
+
+1. Para la creacion de mi modelo peti realice el siguiente modelo de entidad relación:
+    IMG: MER-PETI.PNG
+
+2. Campos de las tables:
+    IMG: actividades.PNG
+         proyectos.PNG
+         detalle.PNG
+
+3. Funcionalidad:
+    IMG: VentanaActividades.PNG
+         VentanaDetalle.PNG
+         VentanaProyectos.PNG
+
+    Y la funcionalidad que se busco en este modelo peti es poder crear u proyecto en el cual jale data para la ejecucion de un proyecto:
+        En esta imagen se ve reflejado en el anterior punto:
+        IMG: FuncionalidadPeti.PNG
+_____________________________________________________________________________________________________________________________________________________________________________________    
+
+Conclusiones:
+
+1.  Al momento de realizar el modulo Peti me salio un error, pues me indicaba que no estaba instaldo un modulo, era algo poco compresible. Resulta que es importante mantener el nombre que debemos poner en formulario tree o form que estan
+    definidos en la vista "views.xml" de lo contrario creariamos un error.    
+
+2.  Los modelos de Odoo son mantenidos en un registro central, también denominado como piscina - pool - en las versiones anteriores. Es un diccionario que mantiene las referencias de todas las clases de modelos 
+    disponibles en la instancia, a las cuales se les puede hacer referencia por el nombre del modelo. 
+
+3.  Se aprendió más sobre las vistas e Odoo que son usadas para la construcción de la interfaz. Comenzamos agregando opciones de menú y acciones de ventana usadas para abrir las vistas.
+
+4.  Plan Estratégico ayuda a que los líderes de una organización plasmen la dirección que le quieren dar a la empresa, y cuando este plan es transmitido hacia toda la organización, ésta generará sinergias en todo el personal para la obtención
+    de sus objetivos. Asimismo, este plan ayuda a que cada trabajador sepa hacia a donde se quiere ir y se comprometa con ese destino.
+
+5.  Recordemos siempre, al agregar campos en el modelo, que es necesaria una actualización del módulo. Cuando se cambia el código Python, incluyendo el archivo de manifiesto, es necesario un reinicio del servidor. 
+    Cuando se cambian archivos XML o CSV es necesaria una actualización del módulo; incluso en caso de duda, realice ambas: actualización del módulo y reinicio del servidor.
