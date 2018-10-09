@@ -1,0 +1,67 @@
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+
+        <record model="ir.ui.view" id="peti.list_actividades_tree">
+            <field name="name">petis.actividades.listado.tree</field>
+            <field name="model">petis.actividad</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="description"/>
+                    <field name="duracion"/>
+                    <field name="prioridad"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="peti.list_actividades_form">
+            <field name="name">petis.actividades.listado.form</field>
+            <field name="model">petis.actividad</field>
+            <field name="arch" type="xml">
+                <form string="Ventana de las actividades">
+                    <sheet>
+                        <div class = "oe_title">
+                            <label for="name" class="oe_edit_only" string="Nombre">Nombre</label>
+                            <h1>
+                                <field name="name"/>
+                            </h1>
+                        </div>
+                        <separator string="Características" colspan="2"/>
+                        <group colspan="2" col="2">
+                             <field name="description"/>
+                             <field name="duracion"/>
+                             <field name="prioridad"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="peti.action_window_actividades">
+            <field name="name">Ventana de actividades</field>
+            <field name="res_model">petis.actividad</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- server action to the one above -->
+        <!--
+    <record model="ir.actions.server" id="convalidaciones.action_server">
+      <field name="name">convalidaciones server</field>
+      <field name="model_id" ref="model_convalidaciones_convalidaciones"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+        <menuitem name="Actividades" id="peti.actividades" parent="peti.menu_root"/>
+        <!-- actions -->
+        <menuitem name="Listado" id="peti.actividades_list" parent="peti.actividades" action="peti.action_window_actividades"/>
+    </data>
+</odoo>

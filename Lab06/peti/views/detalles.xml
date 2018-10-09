@@ -1,0 +1,58 @@
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+
+        <record model="ir.ui.view" id="peti.list_detalles_tree">
+            <field name="name">petis.detalles.tree</field>
+            <field name="model">petis.detalle</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="fecha_limite"/>
+                    <field name="description"/>
+                    <field name="usuario"/>
+                    <field name="estado"/>
+                    <field name="actividad_id"/>
+                    <field name="proyecto_id"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="peti.list_detalles_form">
+            <field name="name">petis.detalles.form</field>
+            <field name="model">petis.detalle</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <separator string="Características" colspan="2"/>
+                        <group colspan="2" col="2">
+                           <field name="fecha_limite"/>
+                           <field name="fecha_realizada"/>
+                           <field name="description"/>
+                           <field name="usuario"/>
+                           <field name="estado"/>
+                           <field name="archivo"/>
+                           <field name="actividad_id"/>
+                           <field name="proyecto_id"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <!-- actions opening views on models -->
+
+        <record model="ir.actions.act_window" id="peti.action_window_detalles">
+            <field name="name">Ventana de Detalles</field>
+            <field name="res_model">petis.detalle</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- menu categories -->
+
+        <menuitem name="Detalles" id="peti.menu_detalles" parent="peti.menu_root"/>
+
+        <!-- actions -->
+
+        <menuitem name="Listado" id="peti.detalles_list" parent="peti.menu_detalles" action="peti.action_window_detalles"/>
+
+    </data>
+</odoo>

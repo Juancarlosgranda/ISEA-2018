@@ -1,0 +1,70 @@
+<odoo>
+    <data>
+        <!-- explicit list view definition -->
+        <record model="ir.ui.view" id="peti.list_proyectos_form">
+            <field name="name">peti.proyectos.form</field>
+            <field name="model">petis.proyecto</field>
+            <field name="arch" type="xml">
+                <form string="Listado de Proyectos">
+                    <sheet>
+                        <div class = "oe_title">
+                            <label for="name" class="oe_edit_only" string="Nombre del proyecto">Nombre del proyecto:</label>
+                            <h1>
+                                <field name="name"/>
+                            </h1>
+                        </div>
+                        <separator string="Caracteristicas" colspan="2"/>
+                        <group colspan="2" col="2">
+                            <field name="duracion"/>
+                            <field name="fecha_inicio"/>
+                            <field name="encargado"/>
+                        </group>
+                        <field name="detalles_ids" editable="bottom">
+                            <tree>
+                                <field name="description" />
+                                <field name="fecha_limite"/>
+                                <field name="usuario"/>
+                                <field name="estado"/>
+                            </tree>
+                        </field>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="peti.list_proyectos_tree">
+            <field name="name">peti.proyectos.tree</field>
+            <field name="model">petis.proyecto</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="duracion"/>
+                    <field name="fecha_inicio"/>
+                    <field name="encargado"/>
+                    <field name= "detalles_ids">
+                        <tree string = "Detalles del proyecto">
+                            <field name="actividad_id"/>
+                            <field name="proyecto_id"/>
+                            <field name="description"/>
+                        </tree>
+                    </field>
+                </tree>
+            </field>
+        </record>
+
+        <!-- actions opening views on models -->
+        <record model="ir.actions.act_window" id="peti.action_window">
+            <field name="name">Ventana de Proyectos</field>
+            <field name="res_model">petis.proyecto</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+
+        <!-- Top menu item -->
+        <menuitem name="PETI" id="peti.menu_root"/>
+        <!-- menu categories -->
+        <menuitem name="Proyectos" id="peti.proyectos" parent="peti.menu_root"/>
+        <!-- actions -->
+        <menuitem name="Listado" id="peti.proyectos_list" parent="peti.proyectos" action="peti.action_window"/>
+    </data>
+</odoo>
