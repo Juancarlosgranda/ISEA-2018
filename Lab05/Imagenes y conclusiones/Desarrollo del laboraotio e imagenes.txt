@@ -73,7 +73,7 @@ ________________________________________________________________________________
 
 
 
-2) Todo el proceso  comienza  con un análisis  de la situación  actual  en la fase I, que produce   el modelo  funcional  imperante  en la empresa. En este paso  se evalúa  de manera
+ Todo el proceso  comienza  con un análisis  de la situación  actual  en la fase I, que produce   el modelo  funcional  imperante  en la empresa. En este paso  se evalúa  de manera
    general  el entendimiento de la  estrategia  de  negocios,  la  eficiencia  de  los  procesos  operativos  y la aceptación de TI en la organización.
 
     La fase II, relacionada con la creación de un modelo de la organización,  inicia  con  un análisis del entorno y el establecimiento de la estrategia de negocios (el proceso  de 
@@ -93,6 +93,17 @@ ________________________________________________________________________________
     implantación,  que  determina  el orden de desarrollo de los proyectos de negocios/organización y de TI. Continúa con un estudio de la recuperación de la inversión, a través de un  análisis costo/beneficio.
     Todo  el  proceso finaliza con  un estudio de administración del riesgo, que se encarga de  reconocer  la  existencia  de  amenazas que puedan poner en peligro el éxito del PETI.
     
+
+2. Para la creacion de mi modelo peti creare solo 3 vistas con sus repectivos modelos que son las siguientes.
+    Actividades: Este modelo se encargara de resgitrar todas aquellas actividades que se generas en el trancurso del desarrollo del software
+
+    Procesos: Este modulo se encargar de crear un proyecto con respectivo nombre, descripcion, duracion, etc. Y al tener una relacion de muchos a muchos con actividades generamos la tabla Detalle.
+    
+    Detalle: Esta se encargara de unir proyectos con actividades, ademas de darle ciertas caracteristicas adicionales a cada actividad como quien lo hizo, cuando, que archivo subio, etc.
+
+    La vista menos usada es la de detalle, pues es mas utilziable desde la ventana de proyecto.
+
+    IMG: MER-PETI.PNG
 ___________________________________________________________________________________________________________________________________________________________________________
 Conclusiones:
 
