@@ -1,0 +1,82 @@
+Laboratorio Nro 7
+Autor: Granda Ramos Juan Carlos
+Grupo: B
+Carrera: C15
+______________________________________________________________________________________________________________________________
+
+2.1)Base de datos limpia (no con data de demostración)
+2.2)Empresa ACME con logo de Tecsup
+    > IMAGEN: 
+                2.1.PNG
+
+2.3)Creación de al menos 30 productos tecnológicos. Tres deben ser creados manualmente y el resto
+    subido a través de un csv.
+    > Tres manuales:
+        Imagenes->  Product1.PNG
+                    Product2.PNG
+                    product3.PNG
+
+    > Subidas mediante un cv:
+        Imagenes->  2.3.1.PNG
+                    2.3.2.PNG
+                    2.3.3.PNG
+        
+        Referecia de archivos: 
+            data.csv && product.template.csv
+
+2.4)Realizar un ajuste de inventario para cada uno de estos productos.
+        Imagenes->  2.4.1.PNG
+                    2.4.2.PNG
+                    2.4.3.PNG
+
+2.5)Instalar el punto de venta y agregar un medio de pago llamado VISA.
+        Imagenes-> visa.PNG
+
+2.6)Generar al menos 15 ventas en el Punto de Venta. No es necesario demostrar el funcionamiento del
+    offline pero se tomará como punto adicional.
+        Imagenes->  venta1.PNG, venta2.PNG, venta3.PNG, venta4.PNG, venta5.PNG, venta6.PNG, venta7.PNG, venta8.PNG, 
+                    venta9.PNG, venta10.PNG, venta11.PNG, venta12.PNG, venta13.PNG, venta14.PNG, venta15.PNG
+
+2.7)Instalar el módulo de compras y generar al menos cinco compras de tres proveedores.
+
+    Proveedor Maestro:
+                        pedido1.PNG
+                        compra1.PNG
+                        pedido2.PNG
+                        compra2.PNG
+
+    Proveedor Saga:
+                        pedido3.PNG
+                        compra3.PNG
+                        pedido4.PNG
+                        compra4.PNG
+
+    Proveedor Plaza:
+                        pedido5.PNG
+                        compra5.PNG
+
+
+2.8)Realizar la recepción parcial de dos compras, y el resto recepcionar el stock por completo.
+
+        Recepcion parcial:
+                            recepcionparcial1.PNG
+                            recepcionparcial2.PNG
+
+        Recepcion completa:
+                            recepciocompleta1.PNG
+                            recepciocompleta2.PNG
+                            recepciocompleta3.PNG
+
+2.9)Pagar solamente a dos proveedores completamente, mientras que al tercero solamente se le pagará
+    una compra y tendrá pendiente un saldo.
+    > En la imagen podremos observar que las facturas generadas por proveedor has sido canceladas excepto 2 de saga.
+        IMAGEN: 
+                facturas.PNG
+______________________________________________________________________________________________________________________________
+Conlusiones:
+1. El Punto de Venta de Odoo está totalmente integrado con los módulos de Inventario y de Contabilidad. Cualquier transacción con su punto de venta será automáticamente registrado en la gestión de inventario y en la contabilidad e, incluso en el módulo de CRM ya que el cliente puede identificarse desde este módulo.
+2. Para el punto venta al final del día, para cerrar la sesión, podemos hacer clic en Cerrar el cual esta de lado derecho en la parte de arriba. En esta página, podremos ver un resumen de todas las transacciones realizadas.
+3. El modulo inventario de odoo es muy importante para las empresas, ya que este llevara un stock de cada producto, el cual esta relacionado con diferentes modulos como compras, punto de venta.
+4. La funcionalidad de realizar pedidos y luego transformarlos en pedidos me parece genial, poque podemos controlar absolutamente todo, desde el recibimiento de productos hasta la generacion de facutas, y llevar el control de pago de estas. Me pareceio increible la funcionalidad que tiene odoo.
+5. Es muy importante definir el modulo de productos, ya que dependiendo de este podremos defenir nuestro inventario, poder ejecutar operaciones en el modulo punto venta y realizar pedidos y compras de proveedores.
+6. Este laboratorio me sirvio mucho de ayuda pues ahora tengo mas claras las ideas sobre como desarrollar mi proyecto final.
