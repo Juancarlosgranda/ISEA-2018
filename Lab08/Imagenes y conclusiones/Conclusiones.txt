@@ -1,0 +1,66 @@
+Laboratorio Nro 8
+Autor: Granda Ramos Juan Carlos
+Grupo: B
+Carrera: C15
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+2.1. Empresa ACME con logo de Tecsup y datos regionales.
+        Imagen: acme.PNG
+
+2.2. Modificación de la plantilla de Pedido de Compras y generación de dicho reporte.
+        Imagen: estilos a ordersale.PNG
+
+2.3. Generar al menos 5 ventas en el módulo Ventas a tres clientes distintos.
+        Cliente 1 Panificadora bimbo
+                    Imagen: cotizacion1.PNG
+                            venta1.PNG
+                            cotizacion2.PNG
+                            venta2.PNG
+
+        Cliente 2: Pedro Juarez
+                    Imagen: cotizacion3.PNG
+                            venta3.PNG
+                            cotizacion4.PNG
+                            venta4.PNG
+        Cliente 3: Don melesio
+                    Imagen: cotizacion5.PNG
+                            venta5.PNG
+
+2.4. Realizar la entrega parcial de dos ventas, y el resto entregar el stock por completo.
+        Entregas parciales
+            Imagen: EntregaparcialUNO.PNG
+                    entregaparcial1.PNG
+                    entregaparcial1.1.PNG
+
+                    EntregaparcialDOS.PNG
+                    entregaparcial2.PNG
+                    entregaparcial2.2.PNG
+        Entregas completas
+            Imagen: entregacompleta1.PNG
+                    entregacompleta2.PNG
+                    entregacompleta3.PNG
+
+2.5. Cobrar solamente a dos clientes completamente, mientras que al tercero solamente se le cobrará una venta y tendrá pendiente un saldo.
+        Cliente 1 Panificadora bimbo
+            Imagen: pagocompleto1.PNG
+                    pagocompleto2.PNG
+
+        Cliente 2 Pedro Juarez
+                    pagocompleto3.PNG
+                    pagocompleto4.PNG
+
+        Cliente 3 Don melesio
+                    pagoparcial.PNG
+
+
+2.6. Instalar el módulo de CRM y generar al menos tres oportunidades de venta en distintas etapas.
+        Imagenes: 
+                Creacion (oportunidad.PNG)
+                Oportunidades.PNG
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+CONLCLUSIONES:
+1. Un módulo de ventas debe abarcar toda la actividad comercial de la compañía, desde la generación de ofertas y presupuestos, al envío de productos y servicios post-venta.
+2. El éxito de cualquier empresa esta directamente relacionado con una gestión eficiente del proceso de venta, siendo esta la principal fuente de ingresos de la compañía, por lo que disponer de la máxima información posible acerca de los mismos se ha convertido en una necesidad clave para las empresas de cualquier sector.
+3. El módulo ventas, se encuentra integrado con el módulo CRM, lo que te permitirá obtener toda la información relevante que necesite para optimizar su proceso de ventas.
+4. Cuando hablamos de CRM (Customer Relationship Management) nos referimos a la estrategia de negocios que la empresa utiliza para conseguir la fidelización del cliente.
+5. Con el CRM en Odoo podemos gestionar toda una cartera de clientes, tanto potenciales como existentes, sencilla y eficazmente, siendo esta información accesible para todo el personal autorizado de tu compañía. 
