@@ -1,0 +1,53 @@
+Laboratorio Nro 09
+Autor: Granda Ramos Juan Carlos
+Grupo: B
+Carrera: C15
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+2.1. Detener el servicio de Odoo e iniciar en modo consola.
+        Imagen: DetencionDeOdoo.PNG
+                consola1.PNG
+                consola2.PNG
+                consola3.PNG
+            Iniciamos odoo mendiante la consola.
+                consolaPath.PNG
+
+2.2. Agregar una carpeta para nuestros módulos de terceros.
+        Imagen: Moduloterceros.PNG
+
+2.3. Descargar e instalar el módulo odoo_web_login https://www.odoo.com/apps/modules/11.0/odoo_web_login/
+        Imagen: web_login.PNG
+                web_login1.PNG
+                web_login3.PNG
+            La web login fue añadida exitosamente.
+                web_login4.PNG
+
+2.4. Descargar e instalar un tema de Odoo, de preferencia distinto al mostrado en la lista de reproducción.
+        Imagen: theme1.PNG
+                theme2.PNG
+                theme3.PNG
+            El tema impacto fue implementado exitosamente
+                theme4.PNG
+
+2.5. Buscar e instalar un módulo que permita descargar un archivo Excel de nuestro stock actual.
+        Imagen: reportstock1.PNG
+                reportstock2.PNG
+                reportstock3.PNG
+                reportstock4.PNG
+                reportstock5.PNG
+            Reporte generado
+                reportstock6.PNG
+
+2.6. Buscar un módulo que me permita agregar los ubigeos de Perú (regiones, provincias, distritos)
+        Imagen: ubigeos1.PNG
+                ubigeos2.PNG
+                ubigeos3.PNG
+            Los ubigeos de Perú fueron añadidos correctamente
+                ubigeos4.PNG
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Conclusiones:
+1.Logramos poder iniciarl el modolo consola de odoo, esto nos permite ver todo el flujo de trabajo de odoo ya que nos detalla hasta los mas minimos de detalles de su ejecucion.
+2.Generamos una carpeta extra donde pondremos nuestro modulos terceros, es necesario especificar el path de esta carpeta en el archivo odoo.conf en modo administrador.
+3.Existen muchas aplicaciones y temas creadas por la comunidad, tanto de paga como gratis.
+4.Con aplicaciones de terceros podimo optimizar un poco nuestro odoo, en este vismo que podemos añadir modulo que nos permitan generar reportes en excel, mostrarnos los ubigeos o poder editar la interfaz de nuestro odoo.
+5.Vimos el modulo de fabricacion, me parece un modulo interesante del cual podemos aprovechar para implementarlo en nuestro proyecto final de odoo.
