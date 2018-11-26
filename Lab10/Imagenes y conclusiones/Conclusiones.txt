@@ -1,0 +1,67 @@
+Laboratorio 10
+Autor: Granda Ramos Juan Carlos
+Grupo: B C15
+_________________________________________________________________________________________________________________________________________________________________________________
+Desarrollo del Laboratorio
+
+1. Una vez que realizamos la creacion del modulo procedemos a crear nuestro modelos, en este caso usamos dos archivos, en el primero 
+    definimos las base de datos creadas por nostros. 
+        IMG:  modelos.PNG
+
+    El segundo archivo contiene la modificacion a una tabla propia de odo en este caso partners:
+        IMG:   modelos2.PNG
+
+2. En la creacion de vistas generamos 2 archivos, uno donde colocamos nuestras vistas propias y en el otro archivo las vistas propias de
+    odoo.
+        IMG:    vistas1.PNG
+    En el segundo archivo solo modificamos las vistas de la entidad partner
+        IMG:    vistas.PNG
+
+3. Respecto a la generacion de logica lo realizamos dentro del archivo donde definimos los otros dos modelos.PNG
+        IMG: logica.PNG
+
+4. Esto lo ejecutamos y tendremos lo siguiente:
+    4.1) Vistas general de open academy:
+            IMG: general.PNG
+    4.2) Modelo Course:
+            IMGS:   Creacion de un curso:   create.PNG
+                    Edicion de un cutso:    edit1.PNG / edit2.PNG
+                    Listando cursos:        List.PNG
+        > La busqueda nos permite pode descripción o nombre del curso
+            IMG: busqueda.PNG    
+        > Editando sesiones dentro de courses, Veremos en la imagen mucha funcionalidad, esta sera un poco mas detalla en sessions.
+            IMG: courseSessions.PNG
+
+    4.3) Ahora veamos la funcionalidad de sesiones ya que en este colacamos logica de programacion:
+        IMG: 
+            > En esta imagen podemos observar como jalamos solo a contactos que tengan el campo instructor en true o la etiqueta teach
+                acmeInstructor2.PNG
+                jalandoSoloInstructores.PNG
+            
+            > Listando y Creando sesiones:
+                ListSession.PNG
+                createSession.PNG
+
+        GIF:
+            > Veamos parte de la logica:
+                Aqui forzamos el error de poner mas asistentes de los lugares disponibles
+                    disponibilidad.gif
+                Aqui forzamo el error de que el instructor se un asistente 
+                    mismoInstructor.gif
+
+5. Viendo la funcionalidad de configuraciones
+    5.1) Definiendo un instructor:
+            configuration.gif
+
+    5.2) Funcionalidad de Contacto Tags
+            tags.gif
+
+    5.3) Progresion de una barra:
+            barra.gif
+_________________________________________________________________________________________________________________________________________________________________________________
+Conclusiones:
+1. Realizamos la creacion de un modulo y desarrollamos desde su inicio toda su configuracion necesaria para empezar a desarrollar en el.
+2. En los modelos definimos los campos que tendra nuestra entidad ademas de poder colocar logica de negocio en esta, Tambien definimos las validaciones de cada campo.
+3. Es necesario reiniciar el servido cuando se modifica el codigo de python. Si solo modificamos el codigo xml con una actualizacion del modulo basta.
+4. Podemos heredar vistas de otros modulos. Esmuy interesante como podemos heredar vistas y poder modificarlas para agregar campos nuevos o cambiarle el estilo.
+5. Podemos heredar modelos, esto para agregar campos en otras entidades, esto nos permite trabajar con absolutamente toda la base de datos.
