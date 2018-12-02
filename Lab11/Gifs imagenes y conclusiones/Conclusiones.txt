@@ -1,0 +1,39 @@
+Laboratorio 11
+Autor: Granda Ramos Juan Carlos
+Carrera y Grupo: C15 B
+______________________________________________________________________________________________________________________________________________
+DESARROLLO DE LABORATORIO:
+
+2. Asignación de tareas Con la lista de reproducción adjuntada, se debe generar la siguiente configuración:
+2.1. Agregar decoradores a las vistas de Lista. EN LA SIGUIENTE IMAGEN PODREMOS OBSERVAR LA VARIACION DE COLOR DEPENDIENDO
+     DEPENDIENDO SI LA DURACION DE LA SESION ES MENOR A 5 O MAYOR IGUAL A 5.
+
+        IMG: DECORACION.PNG
+
+2.2. Agregar una vista calendario. IMPLEMENTACION DE LA VISTA CALENDAR:
+        IMG: CALENDAR.PNG
+        GIF: VISTA_CALENDARIO.gif
+2.3. Agregar una vista Kanban
+        IMG: KANBAN.PNG
+        GIF: VISTA_KANBAN.gif
+2.4. Agregar un filtro de búsqueda
+        IMG: SEARCH.PNG
+        GIF: BUSQUEDA.gif
+2.5. Agrega una vista Reporte
+        IMG: REPORTES.PNG
+        GIF: REPORTE_SESSIONS.gif
+______________________________________________________________________________________________________________________________________________
+ADICIONALES:
+    GENERACION DE GRAFICOS:
+        GIF: GRAFICOS.gif
+
+    WIZARD:
+        GIF: WIZARD.gif
+        IMG: WIZARD_SESSION.PNG
+______________________________________________________________________________________________________________________________________________
+CONCLUSIONES:
+1. Desarrollamos la vista calendar, para ello desarrollamos algunas funciones y agregamos unos campos a models, con le fin de manejar en el calendario el incio y el fin de una session.
+2. Desarrollamos la vista kanban que a mi parecer es la mas amigable, su implementacion es mas complejo que las demas vistas.
+3. Desarrollamos la vista de graficos y dimos decoracion a nuestro modelo session, a este punto podemos dar diferente funcionalidad, el usuario puede interpretar de muchas maneras la diferencia de color de la lista de sesiones.
+4. El uso de wizard me parecio muy util ya que puede ahorrar mucho tiempo al momento de que el usuario realice opercaciones.
+5. Vimos nuevas cosas como el .env que nos sirve para enlazarnos a cualquier modelo de nuestro base de datos, muy util para el wizard, tambien vimos los modelos temporales que son utilizados por los wizard para hacer operaciones.

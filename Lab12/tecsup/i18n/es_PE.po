@@ -1,0 +1,359 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* tecsup
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0-20180814\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-02 07:10+0000\n"
+"PO-Revision-Date: 2018-12-02 07:10+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_session_active
+msgid "Active"
+msgstr "Activo"
+
+#. module: tecsup
+#: model:ir.actions.act_window,name:tecsup.launch_session_wizard
+#: model:ir.ui.view,arch_db:tecsup.wizard_form_view
+msgid "Add Attendees"
+msgstr "Add Attendees"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_res_partner_session_ids
+#: model:ir.model.fields,field_description:tecsup.field_res_users_session_ids
+msgid "Attended sessions"
+msgstr "Attended sessions"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_session_attendee_ids
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_wizard_attendee_ids
+msgid "Attendees"
+msgstr "Asistentes"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_session_attendee_count
+msgid "Attendes count"
+msgstr "Attendes count"
+
+#. module: tecsup
+#: model:ir.ui.view,arch_db:tecsup.wizard_form_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_session_color
+msgid "Color"
+msgstr "Color"
+
+#. module: tecsup
+#: model:ir.ui.menu,name:tecsup.configuration_menu
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: tecsup
+#: model:ir.model,name:tecsup.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: tecsup
+#: model:ir.actions.act_window,name:tecsup.contact_cat_list_action
+#: model:ir.ui.menu,name:tecsup.contact_cat_menu
+msgid "Contact Tags"
+msgstr "Etiquetas de contacto"
+
+#. module: tecsup
+#: model:ir.actions.act_window,name:tecsup.contact_list_action
+#: model:ir.ui.menu,name:tecsup.contacts_menu
+msgid "Contacts"
+msgstr "Contactos"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_session_course_id
+msgid "Course"
+msgstr "Course"
+
+#. module: tecsup
+#: model:ir.ui.view,arch_db:tecsup.course_form_view
+msgid "Course Form"
+msgstr "Course Form"
+
+#. module: tecsup
+#: model:ir.ui.view,arch_db:tecsup.course_tree_view
+msgid "Course Tree"
+msgstr "Course Tree"
+
+#. module: tecsup
+#: model:ir.actions.act_window,name:tecsup.course_list_action
+#: model:ir.ui.menu,name:tecsup.course_menu
+msgid "Courses"
+msgstr "Courses"
+
+#. module: tecsup
+#: model:ir.actions.act_window,help:tecsup.course_list_action
+msgid "Crear tu primer curso"
+msgstr "Crear tu primer curso"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_course_create_uid
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_session_create_uid
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_wizard_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_course_create_date
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_session_create_date
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_wizard_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: tecsup
+#: model:ir.ui.view,arch_db:tecsup.opencademy_session_kanban_view
+msgid "Delete"
+msgstr "Eliminar"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_course_description
+#: model:ir.ui.view,arch_db:tecsup.course_form_view
+msgid "Description"
+msgstr "Descripción"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_course_display_name
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_session_display_name
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_wizard_display_name
+msgid "Display Name"
+msgstr "Nombre a Mostrar"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_session_duration
+msgid "Duration"
+msgstr "Duración"
+
+#. module: tecsup
+#: model:ir.model.fields,help:tecsup.field_openacademy_session_duration
+msgid "Duration in days"
+msgstr "Duration in days"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_session_hours
+msgid "Duration in hours"
+msgstr "Duration in hours"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_session_end_date
+msgid "End Date"
+msgstr "Fecha Final"
+
+#. module: tecsup
+#: model:ir.ui.view,arch_db:tecsup.session_form_view
+msgid "General"
+msgstr "General"
+
+#. module: tecsup
+#: model:ir.ui.view,arch_db:tecsup.course_search_view
+msgid "Group By"
+msgstr "Agrupado por"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_course_id
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_session_id
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_wizard_id
+msgid "ID"
+msgstr "ID"
+
+#. module: tecsup
+#: code:addons/tecsup/models/models.py:51
+#, python-format
+msgid "Incorrect 'seats' value"
+msgstr "Incorrect 'seats' value"
+
+#. module: tecsup
+#: code:addons/tecsup/models/models.py:59
+#, python-format
+msgid "Increase seats or remove excess attendees"
+msgstr "Increase seats or remove excess attendees"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_session_instructor_id
+msgid "Instructor"
+msgstr "Instructor"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_course___last_update
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_session___last_update
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_wizard___last_update
+msgid "Last Modified on"
+msgstr "Ultima Modificación en"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_course_write_uid
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_session_write_uid
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_wizard_write_uid
+msgid "Last Updated by"
+msgstr "Actualizado última vez por"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_course_write_date
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_session_write_date
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_wizard_write_date
+msgid "Last Updated on"
+msgstr "Ultima Actualización"
+
+#. module: tecsup
+#: model:ir.ui.view,arch_db:tecsup.course_search_view
+msgid "My Courses"
+msgstr "My Courses"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_session_name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_course_name
+msgid "Nombre del curso"
+msgstr "Nombre del curso"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_session_seats
+msgid "Number of seats"
+msgstr "Number of seats"
+
+#. module: tecsup
+#: model:ir.ui.menu,name:tecsup.main_openacademy_menu
+#: model:ir.ui.menu,name:tecsup.openacademy_menu
+msgid "Open Academy"
+msgstr "Open Academy"
+
+#. module: tecsup
+#: model:res.groups,name:tecsup.group_manager
+msgid "Open academy / Manager"
+msgstr "Open academy / Manager"
+
+#. module: tecsup
+#: model:ir.ui.view,arch_db:tecsup.opencademy_session_graph_view
+msgid "Paticipations by Courses"
+msgstr "Paticipations by Courses"
+
+#. module: tecsup
+#: model:ir.ui.view,arch_db:tecsup.course_form_view
+msgid "Registered Sessions"
+msgstr "Registered Sessions"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_course_responsible_id
+#: model:ir.ui.view,arch_db:tecsup.course_search_view
+msgid "Responsible"
+msgstr "Responsable"
+
+#. module: tecsup
+#: model:ir.ui.view,arch_db:tecsup.session_form_view
+msgid "Schedule"
+msgstr "Planificacion"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_wizard_session_id
+msgid "Session"
+msgstr "Sesion"
+
+#. module: tecsup
+#: model:ir.ui.view,arch_db:tecsup.session_calendar_view
+msgid "Session Calendar"
+msgstr "Session Calendar"
+
+#. module: tecsup
+#: model:ir.ui.view,arch_db:tecsup.session_form_view
+msgid "Session Form"
+msgstr "Formulario de la sesión"
+
+#. module: tecsup
+#: model:ir.ui.view,arch_db:tecsup.session_tree_view
+msgid "Session Tree"
+msgstr "Session Tree"
+
+#. module: tecsup
+#: model:ir.ui.view,arch_db:tecsup.opencademy_session_kanban_view
+msgid "Session name:"
+msgstr "Session name:"
+
+#. module: tecsup
+#: model:ir.actions.act_window,name:tecsup.session_list_action
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_course_session_ids
+#: model:ir.ui.menu,name:tecsup.session_menu
+#: model:ir.ui.view,arch_db:tecsup.course_form_view
+#: model:ir.ui.view,arch_db:tecsup.partner_instructor_form_view
+msgid "Sessions"
+msgstr "Sesiones"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_session_start_date
+msgid "Start Date"
+msgstr "Fecha de Inicio"
+
+#. module: tecsup
+#: model:ir.ui.view,arch_db:tecsup.wizard_form_view
+msgid "Subscribe"
+msgstr "Suscribirse"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_openacademy_session_taken_seats
+msgid "Taken seats"
+msgstr "Taken seats"
+
+#. module: tecsup
+#: model:res.partner.category,name:tecsup.teacher1
+msgid "Teacher / Level 1"
+msgstr "Teacher / Level 1"
+
+#. module: tecsup
+#: model:res.partner.category,name:tecsup.teacher2
+msgid "Teacher / Level 2"
+msgstr "Teacher / Level 2"
+
+#. module: tecsup
+#: code:addons/tecsup/models/models.py:52
+#, python-format
+msgid "The number of available seats many not be negative"
+msgstr "El número de asistentes disponibles no puede ser negativo"
+
+#. module: tecsup
+#: code:addons/tecsup/models/models.py:58
+#, python-format
+msgid "Too many attendee_ids"
+msgstr "Too many attendee_ids"
+
+#. module: tecsup
+#: model:ir.model.fields,field_description:tecsup.field_res_partner_instructor
+#: model:ir.model.fields,field_description:tecsup.field_res_users_instructor
+msgid "instructor"
+msgstr "instructor"
+
+#. module: tecsup
+#: model:ir.model,name:tecsup.model_openacademy_course
+msgid "openacademy.course"
+msgstr "openacademy.course"
+
+#. module: tecsup
+#: model:ir.model,name:tecsup.model_openacademy_session
+msgid "openacademy.session"
+msgstr "openacademy.session"
+
+#. module: tecsup
+#: model:ir.model,name:tecsup.model_openacademy_wizard
+msgid "openacademy.wizard"
+msgstr "openacademy.wizard"
+
+#. module: tecsup
+#: model:ir.ui.view,arch_db:tecsup.wizard_form_view
+msgid "or"
+msgstr "o"
+

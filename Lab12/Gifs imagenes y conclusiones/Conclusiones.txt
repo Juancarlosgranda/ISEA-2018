@@ -1,0 +1,47 @@
+Laboratorio 12
+Autor: Granda Ramos Juan Carlos
+Carrera y grupo: C15 B
+_______________________________________________________________________________________________________________________________________________
+DESARROLLO DEL LABORATORIO:
+
+2. Asignación de tareas. Con la lista de reproducción adjuntada, se debe generar la siguiente configuración:
+    2.1. Agregar un grupo de permisos para el módulo OpenAcademy
+            IMG:    
+                    creando_permiso_Session.PNG
+                    no-access.PNG
+                    session_read.PNG
+
+            INICIAMOS SESION CON JHON
+                jhon.PNG
+            PROBANDO SIN ASIGNACION DE GRUPO 
+                Sin_permisos.PNG
+            
+            AGREGAMOS EL PERMISO DE MANAGER
+                agregand_permisos.PNG
+
+            PROBANDO USUARIO CON PERMISOS 
+                con_permisos.PNG
+
+            GIFS: USUARIO CON PERMISO ACTIVADO:
+                    activado_manager.gif
+
+                  USUARIO CON PERMISO DESACTIVADO:
+                    desactivando_manager.gif
+
+    2.2. Listado de Cursos en sitio web
+            IMG: Listando_courses.PNG
+
+    2.3. Listado de Sesiones en sitio web
+            IMG: LISTADO_SESSIONS.PNG
+            GIF: Listado_sessions.gif
+_______________________________________________________________________________________________________________________________________________
+ADICIONALES:
+    TRADUCCION DE NUESTRO MODULO
+      IMG:  traduccion.PNG
+_______________________________________________________________________________________________________________________________________________
+CONSLUSIONES:
+1. Odoo nos puede proporcionar una api, la cual podemos usar si en caso no nos gustase los formularios propios de odoo, simplemente tenemos que definir un archivo con algunas especificaciones como la base de datos entre otros.
+2. Con los controladores podemos interactuar con nuestra website, de esta manera le podemos dar ciento de utilidades, como crear un blog o mostrar a tus clientes los acotencimiento importantes de la empresa.
+3. El control de acceso es un aspecto muy importante en cualquier software, odoo tiene implementado esta opcion, es muy versatil ya que podemos asignar diferentes permisos en diferentes aplicaciones.
+4. Muy a parte del uso del controlador para la interaccion con la website es importante imlementar una vista, en esta podemos recibir los datos y renderizarlos en una vista del la website.
+5. las dependecias son importante ya que indicamos a odoo que para instalar un modulo se necesita  de otros, esto con el fin de evitar errores.

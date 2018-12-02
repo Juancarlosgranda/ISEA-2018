@@ -1,0 +1,16 @@
+<odoo>
+    <data>
+        <template id="index">
+            <t t-call="website.layout">
+                <t t-set="title">Academy Sessions</t>
+                <div class="oe_structure">
+                    <div class="container">
+                        <t t-foreach="sessions" t-as="session">
+                            <p><t t-esc="session.id"/> <t t-esc="session.name"/></p>
+                        </t>
+                    </div>
+                </div>
+            </t>
+        </template>
+    </data>
+</odoo>
